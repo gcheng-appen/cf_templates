@@ -5,9 +5,9 @@
     "MyEC2Instance": {
       "Type": "AWS::EC2::Instance",
       "Properties": {
-        "ImageId": "ami-2f726546",
-        "InstanceType": "t1.micro",
-        "KeyName": "testkey",
+        "ImageId": "ami-63489d00",
+        "InstanceType": "t2.micro",
+        "KeyName": "appen2",
         "BlockDeviceMappings": [
           {
             "DeviceName": "/dev/sdm",
